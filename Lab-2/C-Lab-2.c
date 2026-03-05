@@ -115,6 +115,21 @@ int main(){
     // printf("Copied string: %s\n", strcopy);
 
     // ----- 9 ------
-
+    char chr;
+    printf("Enter a character: ");
+    scanf("%c", &chr);
+    if (isupper(chr))
+    {
+        printf("The character is uppercase.\n");
+    }
+    else if (islower(chr))
+    {
+        printf("The character is lowercase.\n");
+    }
+    else
+    {
+        printf("The character is not an alphabet.\n");
+    }
+    
     return 0;
 }
